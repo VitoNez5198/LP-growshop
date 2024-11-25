@@ -1,0 +1,62 @@
+/* general.css */
+
+/* Variables */
+:root {
+    --primary-color: #4caf50;
+    --secondary-color: #ffffff;
+    --text-color: #333;
+}
+
+/* Estilos generales */
+body {
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Peso regular */
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(135deg, #4caf50, #2e7d32);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Sección */
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Cards */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+}

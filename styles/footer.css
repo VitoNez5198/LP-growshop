@@ -1,0 +1,66 @@
+/* footer.css */
+
+/* Estilos generales del footer */
+.footer {
+    background-color: #1d2a33;  /* Fondo oscuro para contraste */
+    color: #fff;  /* Texto blanco */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Estilo para el iframe en el pie de página */
+.map {
+    width: 100%;
+    height: 300px; /* Ajusta la altura según tus necesidades */
+    border: 0; /* Elimina el borde del iframe */
+    margin: 20px 0; /* Agrega margen para separarlo de los elementos cercanos */
+}
+
+
+.footer h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.footer p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.footer ul li {
+    margin: 10px 0;
+}
+
+.footer iframe {
+    width: 100%;
+    height: 300px;  /* Aumenta la altura para mejor visibilidad del mapa */
+    border: none;
+    margin: 20px 0;  /* Espaciado alrededor del mapa */
+}
+
+.footer .copyright {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #ddd;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .footer ul {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .footer iframe {
+        width: 100%;
+        height: 200px;  /* Reduce la altura en pantallas pequeñas */
+    }
+}

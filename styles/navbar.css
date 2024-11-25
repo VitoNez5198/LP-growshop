@@ -1,0 +1,58 @@
+/* navbar.css */
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: center;  /* Centra los elementos */
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Logo en la navbar */
+.navbar .logo img {
+    height: 100px; /* Ajusta el tamaño del logo */
+}
+
+/* Estilo de los enlaces de la navbar */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Espacio entre los enlaces */
+    margin: 0;
+    position: absolute;
+    right: 30px; /* Posiciona los enlaces a la derecha */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--secondary-color); /* Texto blanco */
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase; /* Texto en mayúsculas */
+    transition: color 0.3s ease; /* Transición al pasar el ratón */
+}
+
+.nav-links a:hover {
+    color: #f4a261; /* Cambia de color al pasar el ratón */
+}
+
+/* Botón de menú hamburguesa */
+.menu-toggle {
+    display: none; /* Ocultar en pantallas grandes */
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    color: var(--secondary-color);
+}
+
+/* Efecto cuando la navbar está fija al hacer scroll */
+.navbar.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #2a3d4f; /* Cambia el fondo al hacer scroll */
+}
